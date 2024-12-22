@@ -1,0 +1,1 @@
+In React Router Dom v6, a common issue arises when using nested routes and the `useParams` hook.  If a parent route has a dynamic segment, and a child route also has dynamic segments, the child route might not correctly access its own parameters if the parent route's parameter is not explicitly passed down.
