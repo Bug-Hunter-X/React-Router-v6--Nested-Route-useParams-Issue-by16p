@@ -1,0 +1,1 @@
+This repository demonstrates a common issue and its solution when using nested routes and the useParams hook in React Router v6. The bug arises when a child route's parameters are not correctly accessed due to a parent route's dynamic segment. The solution involves explicitly passing parent route parameters to the child component, ensuring correct access to all parameters.
